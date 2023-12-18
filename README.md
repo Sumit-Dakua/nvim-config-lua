@@ -24,16 +24,16 @@ My Neovim configuration is organized into multiple Lua files to maintain a clean
 
 ## File Structure
 ```
-nvim
-├── lua
-│ ├── keymap.lua
-│ ├── options.lua
-│ ├── plugins.lua
+📂 nvim
+├── 📂 lua
+│   ├── 📄 keymap.lua
+│   ├── 📄 options.lua
+│   ├── 📄 plugins.lua
 │ 
-└── init.lua
+└── 📄 init.lua
 
 ```
-- inside init.lua
+###### inside init.lua 👇
 ```
 require("options")
 require("plugins")
